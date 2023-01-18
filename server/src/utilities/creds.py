@@ -1,9 +1,18 @@
-from os import environ as env
+def read_json_file() -> dict:
+    """
+    Reads the credentials.json file in this directory and transforms it into a python dictionary
+    :return: dict
+    """
+    from json import load
+    with open('credentials.json', 'r') as file:
+        return load(file)
+
 
 class Credentials:
-    def __init__(self) -> None:
-        self.account:str = env.get('SNOWFLAKE_ACCOUNT')
-        self.user:str = env.get('SNOWFLAKE_USER')
-        self.password:str = env.get('SNOWFLAKE_PASSWORD')
-        self.database:str = env.get("SNOWFLAKE_DB")
-        self.warehouse:str = env.get("SNOWFLAKE_VW")
+    def __init__(self, **kwargs) -> None:
+        self.creds: dict = read_json_file()
+        self.account: str = self.creds.get('SNOWFLAKE_ACCOUNT')
+        self.user: str = self.creds.get('SNOWFLAKE_USER')
+        self.password: str = self.creds.get('SNOWFLAKE_PASSWORD')
+        self.database: str = self.creds.get('SNOWFLAKE_DB')
+        self.warehouse: str = self.creds.get('SNOWFLAKE_VW')
