@@ -29,17 +29,13 @@ This repository will walk you through running Snowflake Snowpark Python demo in 
   * Go back to your browser (GitHub) and click on settings, make sure you are in the repository you forked (starts with your GitHub username)
     * <img src="images/10.png" width="1000">
     * <img src="images/11.png" width="1000">
-  * Under this repository there is a file named .env you will need to replace the XXX with the locator and the password and create a variable for each of the following variables:
-    * SNOWFLAKE_ACCOUNT=XXX.eu-west-3.aws
-    * SNOWFLAKE_USER=SVCSNOWPARK
-    * SNOWFLAKE_PASSWORD=XXX
-    * SNOWFLAKE_VW=LEARNINGSNOWPARKVW
-    * SNOWFLAKE_DB=LEARNINGSNOWPARKDB
+  * We need to create two parameters `SNOWFLAKE_ACCOUNT` & `SNOWFLAKE_PASSWORD` lets create one at the time (DO NOT put the values in the same variable)
+    * <img src="images/12.png" width="1000">
+    * <img src="images/13.png" width="1000">
   * At the end you should have some like this:
-  ![Screenshot 2023-01-10 at 14 55 06](https://user-images.githubusercontent.com/107192982/211569900-2544219e-239d-482f-9965-a83b3e454d74.png)
-
-* The last change we need to make is to change the .env files with the actual credentials, edit the file within Github
-<img width="1275" alt="Screenshot 2023-01-11 at 10 41 02" src="https://user-images.githubusercontent.com/107192982/211772452-82de4f51-81e3-422d-845a-6dc8230cc99b.png">
+    * <img src="images/14.png" width="1000">
+  * The last thing we need to do is to lunch a Codespace instance.
+  
 
 ## Author
-* **Enrique Fuentes** - *2023-01-12*
+* **Enrique Fuentes** - *25.01.2023*
