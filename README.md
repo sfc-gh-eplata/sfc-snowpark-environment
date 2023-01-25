@@ -34,8 +34,11 @@ This repository will walk you through running Snowflake Snowpark Python demo in 
     * <img src="images/13.png" width="1000">
   * At the end you should have some like this:
     * <img src="images/14.png" width="1000">
-  * The last thing we need to do is to lunch a Codespace instance.
-  
+  * The last thing we need to do is to lunch a Codespace instance
+    * <img src="images/15.png" width="1000">
+    * <img src="images/16.png" width="1000">
+    * <img src="images/17.png" width="1000">
+  * The lunching of the instance can take up to 5+ minutes 
 
 ## Author
-* **Enrique Fuentes** - *25.01.2023*
+* **Enrique Plata**
