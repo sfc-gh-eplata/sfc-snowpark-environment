@@ -1,25 +1,34 @@
 # Learning-Snowflake-Snowpark
-This repository will walk you through running Snowflake Snowpark Python.
+This repository will walk you through running Snowflake Snowpark Python demo in a Chrome browser.
 
 ## Requirements
+* Install [Chrome](https://www.google.com/chrome/)
+* Sign up for a [Github](https://github.com/) account
+  * Once you have a GitHub account you need to fork [this](https://github.com/sfc-gh-eplata/sfc-snowpark-environment) repository to your own space
+   * <img src="images/8.png" width="1000">
+   * <img src="images/9.png" width="1000">
 * Snowflake Account
    * [Signup](https://signup.snowflake.com/) for a FREE Snowflake account, make sure that you select the following setup is placed:
-   <img width="1300" alt="Screenshot 2023-01-10 at 18 40 37" src="https://user-images.githubusercontent.com/107192982/211624168-1929317f-ba6a-4a21-a5c9-b2db6806f6aa.png"> 
-   * Activate your account, and make sure you remember the master user and the email, you will need them in the next step to log in, it's VERY important you remember them otherwise this will NOT work.
-   ![Screenshot 2023-01-10 at 14 31 51](https://user-images.githubusercontent.com/107192982/211564818-8ad87d60-d90c-4169-bd53-10f256c4ff72.png)
+   * <img src="images/1.png" width="1000">
+   * In your mailbox you should have received an email, this will activate the account
+   * <img src="images/2.png" width="1000">
+   * Activate your account, and make sure you remember the user & password, you will need them in the next step to log in, it's VERY important you remember them otherwise this will NOT work.
 
-## Run application
-  * Once you are logged in, head over to the top right corner and create a new worksheet
-  ![Screenshot 2023-01-10 at 14 36 35](https://user-images.githubusercontent.com/107192982/211565877-371260cc-305a-42d1-94f5-b44b146d52f4.png)
-  * Inside of this repository there is file named **setup.sql** -> sql/setup.sql, copy the code and place it in the new worksheet and run it, at the bottom change the credentials for the account that is going to be created.
-  ![Screenshot 2023-01-10 at 14 40 46](https://user-images.githubusercontent.com/107192982/211566709-9508058d-d1bc-43de-8487-e1eaada2c2fe.png)
-  * You can run the script by clicking the play button (top right corner), make sure you select all the scripts first.
-  * Copy the locator from your account
-  <img width="1767" alt="Screenshot 2023-01-11 at 10 11 40" src="https://user-images.githubusercontent.com/107192982/211770123-a2d76d92-44e9-462f-9374-0fb4d8312ea4.png">
-  * FORK this repository to your own account
-
-  * Create new environment variables in your codespace
-  ![Screenshot 2023-01-10 at 14 50 42](https://user-images.githubusercontent.com/107192982/211568887-53e22d8c-88ad-43b6-96c7-9274497cc592.png)
+## Setup
+  * Once you are logged into your Snowflake account, click in the top right corner and create a new worksheet
+    * <img src="images/3.png" width="1000">
+  * Inside of this repository there is a sql scrip, copy the code and paste it in the new worksheet you just created, here is the script link [setup.sql](sql-setup/setup.sql)
+  * Once you pasted, scroll down to the bottom and replace 'XXX' for the password you prefer.
+    * <img src="images/4.png" width="1000">
+  * After changing the value go to the top and select everything and run the script by clicking the play button (top right corner), make sure you select all the scripts first.
+    * <img src="images/5.png" width="1000">
+  * Go back to the home menu
+    * <img src="images/6.png" width="1000">
+  * Once you are in the home menu, copy the locator from your account by:
+    * <img src="images/7.png" width="1000">
+  * Go back to your browser (GitHub) and click on settings, make sure you are in the repository you forked (starts with your GitHub username)
+    * <img src="images/10.png" width="1000">
+    * <img src="images/11.png" width="1000">
   * Under this repository there is a file named .env you will need to replace the XXX with the locator and the password and create a variable for each of the following variables:
     * SNOWFLAKE_ACCOUNT=XXX.eu-west-3.aws
     * SNOWFLAKE_USER=SVCSNOWPARK
