@@ -39,6 +39,7 @@ This repository will walk you through running Snowflake Snowpark Python demo in 
     * <img src="images/16.png" width="1000">
     * <img src="images/17.png" width="1000">
   * The lunching of the instance can take up to 5+ minutes 
+    * <img src="images/18.png" width="1000">
 
 ## Author
 * **Enrique Plata**
