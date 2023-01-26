@@ -38,7 +38,7 @@
                 "python.linting.pycodestylePath": "/opt/conda/bin/pycodestyle",
                 "python.linting.pydocstylePath": "/opt/conda/bin/pydocstyle",
                 "python.linting.pylintPath": "/opt/conda/bin/pylint",
-                "workbench.colorTheme": "Cobalt2",
+                "workbench.colorTheme": "cobalt2",
                 "workbench.iconTheme": "vscode-icons",
                 "terminal.integrated.profiles.linux": {
                     "bash": {
@@ -47,6 +47,15 @@
                 }
             },
             "extensions": [
+                "ms-python.isort",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "wesbos.theme-cobalt2",
                 "snowflake.snowflake-vsc"
             ]
         }
