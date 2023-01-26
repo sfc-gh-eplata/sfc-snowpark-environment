@@ -25,7 +25,7 @@
     "postCreateCommand": "chmod +x ./bin/post_create_setup.sh && ./bin/post_create_setup.sh",
     "customizations": {
         "codespaces": {
-            "openFiles": ["server/src/02_ml_with_snowpark_credict_approval/0_setup_environment.ipynb"]
+            "openFiles": ["server/src/02_ml_with_snowpark_credict_approval/README.md"]
         },
         "vscode": {
             "settings": {
